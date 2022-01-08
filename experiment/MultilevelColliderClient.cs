@@ -1,3 +1,12 @@
+// --------------------------------------------------------------------------------------------------------------------
+// Multi-level collider segmentation script (client side), version 2022-01-06
+// This script 
+//
+// Functionality:
+//
+// Script setup and options:
+// --------------------------------------------------------------------------------------------------------------------
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------------------------------------
-// Dual raycaster script, version 2021-11-11
+// Dual raycaster script, version 2022-01-06
 // This script processes (and debugs/visualizes) currently captured eye-tracking data, to send them to a logger.
 //
 // The script is derived from SRanipal API (based on SRanipal_EyeFocusSample_v2).

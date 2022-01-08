@@ -1,3 +1,16 @@
+// --------------------------------------------------------------------------------------------------------------------
+// Recaster script, version 2022-01-06
+// This script recasts already collected CSV eye-tracking data and writes the results into a new CSV file.
+//
+// Functionality: To recast user eye-tracking data (individual raycasts) in a given virtual environment to possibly collect new data with the use of altered environment (colliders).
+//
+// Script setup and options:
+// Loading a CSV file: name of the file (must be located in the Assets/Resources folder of the Unity project)
+// Writing to a new CSV file: name of the output file (must be located in the Assets/Resources folder of the Unity project)
+// Rows to recast: set up the maximum number of rows to be recast
+// Input CSV variables: write the names of the columns of the input CSV for user XYZ positions, eye-tracking XYZ positions, and names of the fixated objects
+// --------------------------------------------------------------------------------------------------------------------
+
 public class Recaster : MonoBehaviour
 {
     //service variables
