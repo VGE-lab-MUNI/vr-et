@@ -18,26 +18,30 @@ The idea behind the software architecture is as follows:
 * Evaluation runtime (\verification and \visualization), to fix acquired data, and to see it visualized
 * External applications, scripts, eye-tracking data filtering
 
-This is meant as two separate runtimes (Unity), with etc. scripting on the side
+This is meant as two separate runtimes (Unity), with etc. scripting on the side.
+
 This is to follow the proposed software architecture (see image):
 
 ## Technologies
 C# (Unity API)
+
 Processing (Java, external scripting)
 
 ## Setup
 Download the files into your Unity project (Unity 2018.4 and newer, render pipeline doesn't matter).
 
 For data logging, set up PathScript.
+
 For evaluation, use CSVReader to load data, and then \verification and \visualization to do the rest.
 
 For further instructions, read each script's documentation.
 
 ## Publications
-Eye-Tracking in Interactive Virtual Environments: Implementa-tion and Evaluation (under review)
+Eye-Tracking in Interactive Virtual Environments: Implementation and Evaluation (under review)
 
 ## Version
 Major release info will go here.
+
 Legacy compatibility with initial files/release needs to be maintained, should major changes commence.
 
 ## License
