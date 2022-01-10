@@ -21,6 +21,7 @@ The idea behind the software architecture is as follows:
 This is meant as two separate runtimes (Unity), with etc. scripting on the side.
 
 This is to follow the proposed software architecture (see image):
+![SW Architecture](./SwArchitecture.png)
 
 ## Technologies
 C# (Unity API)
